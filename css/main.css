@@ -1,0 +1,81 @@
+
+
+
+
+body {
+  background-image: url('../images/gaussian-blur-wallpaper.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+/*Roboto Normal 400 Thin 100 Light 300 Bold 700*/
+
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: white;
+  font-size: 3.8em;
+}
+
+li{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: white;
+  font-size: 1.2em;
+}
+.title-input{
+  width:60%;
+  height:500px;
+  float:left;
+  position: relative;
+  margin-top:50px; 
+  border-right: 1px solid white;
+}
+
+.title{
+  padding-top:1em;
+  padding-left:2em;
+  padding-bottom:0;
+  margin-left:100px;
+  
+}
+
+.input-box{
+    width: 400px;
+    height: 40px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin-left:130px;
+    float:left;
+}
+
+.plus-sign{
+  background-image: url('https://www.dropbox.com/s/8pnbl67kdri6vkj/plus-sign.png?raw=1');
+  background-size: cover;
+  background-repeat:no-repeat;
+  height:25px; 
+  width:25px;
+  float:left;
+  padding:5px;
+  margin-left:20px;
+}
+
+.list{
+  margin-top:50px;
+  width:35%;
+  height: 500px;
+  float:left;
+  position: relative;
+  display:none;
+}
+
+ul{
+  float:left;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+ul li{
+  padding:.9em;
+
+}
