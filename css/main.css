@@ -12,14 +12,35 @@ body {
 
 h1{
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 100;
   color: white;
   font-size: 3.8em;
 }
 
+@media only screen and (max-width: 500px) {
+    h1{
+      font-size: 2.5em;
+        
+    }
+}
+
+h3{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  color: white;
+  font-size: 1.2em;
+}
+
+h4{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  color: white;
+  font-size: .6em;
+}
+
 li{
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 100;
   color: white;
   font-size: 1.2em;
 }
@@ -32,12 +53,30 @@ li{
   border-right: 1px solid white;
 }
 
+@media only screen and (max-width: 1020px) {
+    .title-input{
+      width:100%;
+      height:200px; 
+      border-right:none;    
+    }
+}
+
 .title{
   padding-top:1em;
   padding-left:2em;
   padding-bottom:0;
   margin-left:100px;
   
+}
+
+@media only screen and (max-width: 500px) {
+    .title{
+      padding-top:1em;
+      padding-left:1em;
+      padding-bottom:0;
+      margin-left:50px;
+        
+    }
 }
 
 .input-box{
@@ -48,6 +87,63 @@ li{
     margin-left:130px;
     float:left;
 }
+
+@media only screen and (max-width: 500px) {
+    .input-box{
+      width: 60%;
+       height: 40px;
+       border: 1px solid white;
+        box-sizing: border-box;
+      margin-left:70px;
+    float:left;
+        
+    }
+}
+
+
+.input-box h3{
+    margin: 0;
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+
+.inputfield ul li{
+      position:absolute;
+}
+
+.ent-one{
+  display:none;
+}
+
+.ent-two{
+  display:none;
+}
+
+.ent-three{
+  display:none;
+}
+
+.ent-four{
+  display:none;
+}
+
+.ent-five{
+  display:none;
+}
+
+.ent-six{
+  display:none;
+}
+
+.ent-seven{
+  display:none;
+}
+
+.ent-eight{
+  display:none;
+}
+
 
 .plus-sign{
   background-image: url('https://www.dropbox.com/s/8pnbl67kdri6vkj/plus-sign.png?raw=1');
@@ -61,13 +157,146 @@ li{
 }
 
 .list{
-  margin-top:50px;
+  margin-top:90px;
   width:35%;
   height: 500px;
   float:left;
   position: relative;
+  font-size: 1.2em;
+  line-height: 2px;
+}
+
+@media only screen and (max-width: 500px) {
+    .list{
+      width:100%;
+      height:500px;
+      font-size:1em;
+    }
+}
+
+.delete{
+  padding-left:2em;
+}
+
+ul li{
+  
+}
+
+.one{
+  padding-top:.9em;
+  padding-bottom:.9em;
+  padding-left: .3em;
+  width: 400px;
+  margin-left: 0;
   display:none;
 }
+
+.two{
+  padding-top:.9em;
+  padding-bottom:.9em;
+  padding-left: .3em;
+  width: 400px;
+  margin-left: 0;
+  display:none;
+}
+
+.three{
+  padding-top:.9em;
+  padding-bottom:.9em;
+  padding-left: .3em;
+  width: 400px;
+  margin-left: 0;
+  display:none;
+}
+
+.four{
+  padding-top:.9em;
+  padding-bottom:.9em;
+  padding-left: .3em;
+  width: 400px;
+  margin-left: 0;
+  display:none;
+}
+
+.five{
+  padding-top:.9em;
+  padding-bottom:.9em;
+  padding-left: .3em;
+  width: 400px;
+  margin-left: 0;
+  display:none;
+}
+
+.six{
+  padding-top:.9em;
+  padding-bottom:.9em;
+  padding-left: .3em;
+  width: 400px;
+  margin-left: 0;
+  display:none;
+}
+
+.seven{
+  padding-top:.9em;
+  padding-bottom:.9em;
+  padding-left: .3em;
+  width: 400px;
+  margin-left: 0;
+  display:none;
+}
+
+.eight{
+  padding-top:.9em;
+  padding-bottom:.9em;
+  padding-left: .3em;
+  width: 400px;
+  margin-left: 0;
+  display:none;
+}
+
+
+
+.one:hover{
+  background: rgba(255, 255, 255, .2);
+  font-weight: 700;
+}
+
+.two:hover{
+  background: rgba(255, 255, 255, .2);
+  font-weight: 700;
+}
+
+.three:hover{
+  background: rgba(255, 255, 255, .2);
+  font-weight: 700;
+}
+
+.four:hover{
+  background: rgba(255, 255, 255, .2);
+  font-weight: 700;
+}
+
+.five:hover{
+  background: rgba(255, 255, 255, .2);
+  font-weight: 700;
+}
+
+.six:hover{
+  background: rgba(255, 255, 255, .2);
+  font-weight: 700;
+}
+
+.seven:hover{
+  background: rgba(255, 255, 255, .2);
+  font-weight: 700;
+}
+
+.eight:hover{
+  background: rgba(255, 255, 255, .2);
+  font-weight: 700;
+}
+
+
 
 ul{
   float:left;
@@ -75,7 +304,3 @@ ul{
   text-decoration: none;
 }
 
-ul li{
-  padding:.9em;
-
-}
