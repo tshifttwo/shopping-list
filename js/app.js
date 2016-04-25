@@ -113,6 +113,7 @@ $(".plus-sign").click(function(){
   $('body').keydown(function(x){
  	if(x.keyCode == 88){
     $('.selected').hide();
+    $('.selected').removeClass("selected");
    	}
    	});
 
