@@ -110,40 +110,13 @@ li{
 
 .inputfield ul li{
       position:absolute;
+      float:left
 }
 
-.ent-one{
+ul.fieldentry li{
   display:none;
-}
-
-.ent-two{
-  display:none;
-}
-
-.ent-three{
-  display:none;
-}
-
-.ent-four{
-  display:none;
-}
-
-.ent-five{
-  display:none;
-}
-
-.ent-six{
-  display:none;
-}
-
-.ent-seven{
-  display:none;
-}
-
-.ent-eight{
-  display:none;
-}
-
+  margin-left:-1em;
+}/**/
 
 .plus-sign{
   background-image: url('https://www.dropbox.com/s/8pnbl67kdri6vkj/plus-sign.png?raw=1');
@@ -174,16 +147,17 @@ li{
     }
 }
 
+
 .delete{
   padding-left:2em;
 }
 
-ul li{
-  
+.inputs{
+  float:none;
 }
 
-.one{
-  padding-top:.9em;
+ul.inputs li{
+   padding-top:.9em;
   padding-bottom:.9em;
   padding-left: .3em;
   width: 400px;
@@ -191,112 +165,15 @@ ul li{
   display:none;
 }
 
-.two{
-  padding-top:.9em;
-  padding-bottom:.9em;
-  padding-left: .3em;
-  width: 400px;
-  margin-left: 0;
-  display:none;
-}
-
-.three{
-  padding-top:.9em;
-  padding-bottom:.9em;
-  padding-left: .3em;
-  width: 400px;
-  margin-left: 0;
-  display:none;
-}
-
-.four{
-  padding-top:.9em;
-  padding-bottom:.9em;
-  padding-left: .3em;
-  width: 400px;
-  margin-left: 0;
-  display:none;
-}
-
-.five{
-  padding-top:.9em;
-  padding-bottom:.9em;
-  padding-left: .3em;
-  width: 400px;
-  margin-left: 0;
-  display:none;
-}
-
-.six{
-  padding-top:.9em;
-  padding-bottom:.9em;
-  padding-left: .3em;
-  width: 400px;
-  margin-left: 0;
-  display:none;
-}
-
-.seven{
-  padding-top:.9em;
-  padding-bottom:.9em;
-  padding-left: .3em;
-  width: 400px;
-  margin-left: 0;
-  display:none;
-}
-
-.eight{
-  padding-top:.9em;
-  padding-bottom:.9em;
-  padding-left: .3em;
-  width: 400px;
-  margin-left: 0;
-  display:none;
-}
-
-
-
-.one:hover{
+ul.inputs li:hover{
   background: rgba(255, 255, 255, .2);
   font-weight: 700;
 }
 
-.two:hover{
+.inputs .selected {
   background: rgba(255, 255, 255, .2);
   font-weight: 700;
 }
-
-.three:hover{
-  background: rgba(255, 255, 255, .2);
-  font-weight: 700;
-}
-
-.four:hover{
-  background: rgba(255, 255, 255, .2);
-  font-weight: 700;
-}
-
-.five:hover{
-  background: rgba(255, 255, 255, .2);
-  font-weight: 700;
-}
-
-.six:hover{
-  background: rgba(255, 255, 255, .2);
-  font-weight: 700;
-}
-
-.seven:hover{
-  background: rgba(255, 255, 255, .2);
-  font-weight: 700;
-}
-
-.eight:hover{
-  background: rgba(255, 255, 255, .2);
-  font-weight: 700;
-}
-
-
 
 ul{
   float:left;

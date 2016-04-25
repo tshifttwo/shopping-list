@@ -105,37 +105,17 @@ $(".plus-sign").click(function(){
 	}
 	});
 
-$(".one").click(function() {
-    $(".one").hide();
-});
 
-$(".two").click(function() {
-    $(".two").hide();
-});
+	$(".inputs").on("click", "li", function() {
+	    $(this).toggleClass("selected");
+	});
 
-$(".three").click(function() {
-    $(".three").hide();
-});
+  $('body').keydown(function(x){
+ 	if(x.keyCode == 88){
+    $('.selected').hide();
+   	}
+   	});
 
-$(".four").click(function() {
-    $(".four").hide();
-});
-
-$(".five").click(function() {
-    $(".five").hide();
-});
-
-$(".six").click(function() {
-    $(".six").hide();
-});
-
-$(".seven").click(function() {
-    $(".seven").hide();
-});
-
-$(".eight").click(function() {
-    $(".eight").hide();
-});
 
 });
 
